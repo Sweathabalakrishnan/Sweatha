@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/29233a6a9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    
+    <div class="container">
+        <nav>
+            
+            <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:60px;"><span>S</span>weatha.</h1>
+
+
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Interest">Area of Interest</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1 style="font-size: 40px;">Hi, I'm <span>Sweatha</span> <br>from India.</h1>
+        </div>
+    </div>
+</div>
+
+<!--------------------------About------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="SWE.jpg" class="img">
+              
+
+            </div>
+            <div class="about-col-2">
+                <h4 class="sub-title">About Me</h4>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;">I'm B.Tech student in Artificial Intelligence and Data Science at Builders Engineering College, where I learn and apply Python programming and machine learning techniques to solve real-world problems using data and algorithms. I am passionate about finding innovative and data-driven solutions that can make a positive impact on society and the environment. I am looking for a freelance project that will challenge me to enhance my skills and knowledge, and allow me to collaborate with professionals who share my vision and enthusiasm.I had done my internship as web developer at Knila IT Solutions, where I design and develop user-friendly web applications for various clients and domains. I have a certification in web development with Angular, and I use Bootstrap and Figma tools to create appealing and responsive UI/UX designs.</p>
+                </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI&UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>WebDevelopment</span><br>Web/App Development</li>
+                    <li><span>Python and Data Science</span><br>Data Visualization</li>
+                    <li><span>PowerBI</span><br>Live Data Analysis</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="certification">
+                <ul>
+                    <li><span>Machine Learning to Generative AI</span><br>IBM SkillsBuild</li>
+                    <li><span>WebDevelopment with Angular</span><br>Internship at Knila It Solutions</li>
+                    <li><span>Data Science and Analytics</span><br>In Pan-tech eLearning</li>
+                    <li><span>Augumented Reality</span><br>Nandha Intotech</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.Tech Artificial Intelligence and Data Science Current CPGA:8.47</span><br>In Builders Engineering College </li>
+                    <li><span>HSC : 91.6%</span><br>In Surabi Matric Higher Secondary School</li>
+                    <li><span>SSLC : 86.5%</span><br>In Surabi Matric Higher Secondary School</li>
+                    
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------Area of Interest-------------------->
+<div id="Interest">
+    <div class="container">
+        <h4 class="sub-title">Area of Interest</h4>
+        <div class="Interest-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I have a creative side and enjoy working with visual elements to create appealing and functional websites. I have skills in graphic design, layout design, and user experience (UX) design and knowledge of HTML, CSS, and possibly JavaScript to bring your designs to life on the web.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I'm likely detail-oriented, creative, and have a passion for creating intuitive and visually appealing user interfaces and I might enjoy solving design challenges, thinking about user interactions, and staying updated with the latest design trends and tools. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Data Analytics</h2>
+                <p>Data visualization plays a crucial role in helping people understand complex data.I'm looking to use data visualization for personal projects, considering a career path that involves a strong emphasis on data visualization.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------Portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h4 class="sub-title">My Work</h4>  
+        <div class="work-list">
+            <div class="work">
+                <img src="road.jpg">
+                <div class="layer">
+                    <h3>RoadMaster Vehicle Insurance</h3>
+                      <p>The Roadmaster Vehicle Insurance website project aims to provide a user-friendly platform for customers to learn about and purchase vehicle insurance policies. The website is designed using HTML, CSS, and Bootstrap.</p>
+                      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="robot.png">
+                <div class="layer">
+                <h3>Chatbot Design in figma</h3>
+                <p>I tasked myself with designing [Personal Àl buddy e.g., "an intuitive, user-friendly interface for a sustainable living mobile app"]. The goal was to simplify the user experience, making sustainability accessible to everyone, every day.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="shop.jpg">
+                <div class="layer">
+                <h3>Zaara Shopping Website Design</h3>
+                <p>"Zaara Shopping" is a shopping website designed using Figma, a popular design tool. The website features a clean and modern layout, with a user-friendly interface that allows shoppers to easily browse and purchase products. By swiping the product I used prototyping to see more fascinating products.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="donut.png">
+                <div class="layer">
+                <h3>Donut Animation Design</h3>
+                <p>Creating a donut animation in Figma involves designing a series of frames to represent the different stages of the animation, such as a full donut, a partially eaten donut, and an almost finished donut. This is achieved by duplicating the donut shape. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            
+            
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sweathabk@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>9361812957</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Sweatha cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>2024 Copyright <i class="fa-regular fa-copyright"></i> Sweatha.Made with portfolio.</p>
+        
+    </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXEOXRJmxb27qNfxWXR9j8kfOWsIShYeOAVnKIstE7jNcSiJ521Ko0f0gSaZdPLRUOlg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
