@@ -4,3 +4,5 @@
 ![Screenshot (8)](https://github.com/Sweathabalakrishnan/Sweatha/assets/142570136/f5db3e20-6746-4108-8053-15a696657b48)
 ![Screenshot (9)](https://github.com/Sweathabalakrishnan/Sweatha/assets/142570136/331d22ab-99f4-4013-859a-b1324ee45125)
 ![Screenshot (10)](https://github.com/Sweathabalakrishnan/Sweatha/assets/142570136/7e0b4617-294c-4aa9-a1fd-cbdbad236e76)
+![Screenshot (11)](https://github.com/Sweathabalakrishnan/Sweatha/assets/142570136/bced9f87-6a27-4a63-ab05-30fefdc8536e)
+![Screenshot (12)](https://github.com/Sweathabalakrishnan/Sweatha/assets/142570136/69b19282-d8d9-410e-ae44-9b05ebdacc1d)
